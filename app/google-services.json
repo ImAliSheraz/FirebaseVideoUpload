@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "871652176415",
+    "firebase_url": "https://fir-videoupload-28576.firebaseio.com",
+    "project_id": "fir-videoupload-28576",
+    "storage_bucket": "fir-videoupload-28576.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871652176415:android:2e57f724a2f22b4c785b2a",
+        "android_client_info": {
+          "package_name": "com.buddytrainers.firebasevideoupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871652176415-9f6mc7clf5bjmfigfkk19fnu2krkl92g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buddytrainers.firebasevideoupload",
+            "certificate_hash": "acb3ff1726f653bd5faaaf547892d26db48f06ed"
+          }
+        },
+        {
+          "client_id": "871652176415-i1t0lq7c2e3mart45bmbdp46fnc73a2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxmTUffu7fLoVaoBq36tXkPuyXyvHi3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871652176415-i1t0lq7c2e3mart45bmbdp46fnc73a2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

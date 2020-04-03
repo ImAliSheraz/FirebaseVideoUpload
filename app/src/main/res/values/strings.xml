@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseVideoUploader</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="download_video">Download Video</string>
+    <string name="select_video_from_gallery">Select Video From Gallery</string>
+    <string name="working">Working...</string>
+    <string name="please_wait">Please Wait</string>
+</resources>

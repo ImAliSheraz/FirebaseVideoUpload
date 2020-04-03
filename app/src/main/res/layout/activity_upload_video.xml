@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadVideoActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoNameET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter the video name"
+        />
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/videoToUploadIV"
+        android:layout_below="@id/videoNameET"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/selectVideoBtn"
+        android:layout_below="@id/videoToUploadIV"
+        android:text="@string/select_video_from_gallery"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/uploadVideoBtn"
+        android:layout_below="@id/selectVideoBtn"
+        android:text="@string/upload_video"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:onClick="uploadVideoToFirebaseStorage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/backBtn"
+        android:layout_below="@id/uploadVideoBtn"
+        android:text="@string/back_to_home"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="20dp"
+        android:onClick="moveToBack"/>
+
+</RelativeLayout>
